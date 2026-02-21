@@ -38,3 +38,5 @@ The kids section uses sublinks to filter by age group and style.
 * `public/`: Static assets like CSS and organized image folders.
 * `routes/`: Express router files for clean URL handling.
 * `views/`: EJS templates for the frontend.
+* Set up environment: Create a .env file on root level and add your PORT:NUMBER
+
