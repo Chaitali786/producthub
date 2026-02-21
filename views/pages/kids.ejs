@@ -1,0 +1,28 @@
+
+
+<%- include('../partials/header') %>
+
+<main>
+  <h2>Kids Collection</h2>
+  
+ <div class="sub-nav">
+  <a href="/kids">All</a> |
+  <a href="/kids/kids">Baby</a> |
+  <a href="/kids/toddler">Toddlers</a> |
+  <a href="/kids/teenageer">Teenagers</a>
+</div>
+  <section class="product-grid">
+    <% products.forEach(product => { %>
+      <div class="product-card">
+        <img src="<%= product.image %>" alt="<%= product.name %>">
+        <h3><%= product.name %></h3>
+        <p class="product-price"><%= product.price %> SEK</p>
+        <p class="product-size"><%= product.size.join('|') %></p>
+      </div>
+    <% }) %>
+  </section>
+</main>
+
+<%- include('../partials/footer') %>
+
+

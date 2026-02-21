@@ -1,0 +1,25 @@
+
+
+<%- include("../partials/header") %>
+<div>
+  <div class="sale-banner">
+      <p>Check out our latest deals!</p>
+      <a href="/womens/sale" class="sale-button">SHOP THE SALE</a>
+    </div>
+  <section class="product-grid">
+    <% products.forEach(product => { %>
+      <div class="product-card">
+         
+         <img src="<%= product.image %>" alt="<%= product.name %>">
+         <h3><%= product.name %></h3>
+         <p class="product-price"><%= product.price %> SEK</p>
+         <p class="product-size"><%= product.size.join('|') %></p>
+      </div>
+    <% }) %>
+  </section>
+</div>
+
+
+<%- include("../partials/footer") %>
+
+
