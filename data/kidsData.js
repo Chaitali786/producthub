@@ -1,47 +1,46 @@
 const kidsProducts = [
-  
   {
     id: 1,
     name: "Graphic Cotton Tee",
     image: "/images/kids/baby.jpg",
     category: "kids",
     price: 19.99,
-    size: ["S", "M", "L"]
+    size: ["S", "M", "L"],
   },
-  
+
   {
     id: 2,
     name: "Toddler Denim Overalls",
     image: "/images/toddler/toddler.jpg",
     category: "toddler",
-    price: 24.50,
-    size: ["XS", "S", "M","L"]
+    price: 24.5,
+    size: ["XS", "S", "M", "L"],
   },
-  
+
   {
     id: 3,
     name: "Teen Oversized Hoodie",
     image: "/images/teenageer/teenage.jpg",
     category: "teenageer",
     price: 39.99,
-    size: ["XS", "S", "M", "L"]
+    size: ["XS", "S", "M", "L"],
   },
 
-   {
+  {
     id: 4,
     name: "Teen Oversized Hoodie",
     image: "/images/teenageer/teenHoddie.jpg",
     category: "teenageer",
     price: 39.99,
-    size: ["XS", "S", "M", "L"]
+    size: ["XS", "S", "M", "L"],
   },
-   {
+  {
     id: 5,
     name: "Teen Oversized Hoodie",
     image: "/images/teenageer/teenage.jpg",
     category: "teenageer",
     price: 39.99,
-    size: ["XS", "S", "M", "L"]
+    size: ["XS", "S", "M", "L"],
   },
   {
     id: 6,
@@ -49,7 +48,7 @@ const kidsProducts = [
     image: "/images/teenageer/teenHoddie.jpg",
     category: "teenageer",
     price: 39.99,
-    size: ["XS", "S", "M", "L"]
+    size: ["XS", "S", "M", "L"],
   },
   {
     id: 7,
@@ -57,7 +56,7 @@ const kidsProducts = [
     image: "/images/kids/babywithshoes.jpg",
     category: "kids",
     price: 39.99,
-    size: ["XS", "S", "M", "L"]
+    size: ["XS", "S", "M", "L"],
   },
   {
     id: 8,
@@ -65,7 +64,7 @@ const kidsProducts = [
     image: "/images/kids/babyjumpsuit.jpg",
     category: "kids",
     price: 39.99,
-    size: ["XS", "S", "M", "L"]
+    size: ["XS", "S", "M", "L"],
   },
   {
     id: 9,
@@ -73,15 +72,15 @@ const kidsProducts = [
     image: "/images/kids/babydressset.jpg",
     category: "kids",
     price: 39.99,
-    size: ["XS", "S", "M", "L"]
+    size: ["XS", "S", "M", "L"],
   },
-   {
+  {
     id: 10,
     name: "Toddler Dress Set",
     image: "/images/toddler/blackdress.jpg",
     category: "toddler",
     price: 39.99,
-    size: ["XS", "S", "M", "L"]
+    size: ["XS", "S", "M", "L"],
   },
   {
     id: 11,
@@ -89,7 +88,7 @@ const kidsProducts = [
     image: "/images/toddler/summerdress.jpg",
     category: "toddler",
     price: 39.99,
-    size: ["XS", "S", "M", "L"]
+    size: ["XS", "S", "M", "L"],
   },
   {
     id: 12,
@@ -97,9 +96,8 @@ const kidsProducts = [
     image: "/images/toddler/toddleryellow.jpg",
     category: "toddler",
     price: 39.99,
-    size: ["XS", "S", "M", "L"]
+    size: ["XS", "S", "M", "L"],
   },
-
 ];
 
 export default kidsProducts;

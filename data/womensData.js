@@ -1,5 +1,4 @@
 const womensProducts = [
-  
   {
     id: 1,
     name: "Dress",
@@ -7,19 +6,19 @@ const womensProducts = [
     category: "womens",
     price: 19.99,
     size: ["S", "M", "L"],
-    onSale: true
+    onSale: true,
   },
-  
+
   {
     id: 2,
     name: "Punjabi Suit",
     image: "/images/womens/suit.jpg",
     category: "womens",
-    price: 24.50,
-    size: ["XS", "S", "M","L"],
-    onSale: false
+    price: 24.5,
+    size: ["XS", "S", "M", "L"],
+    onSale: false,
   },
-  
+
   {
     id: 3,
     name: "Winter Cloth Set",
@@ -27,30 +26,27 @@ const womensProducts = [
     category: "womens",
     price: 39.99,
     size: ["XS", "S", "M", "L"],
-    onSale: true
+    onSale: true,
   },
 
-   {
+  {
     id: 4,
     name: "Winter Cloth Set ",
     image: "/images/womens/womensclothset1.jpg",
     category: "womens",
     price: 39.99,
     size: ["XS", "S", "M", "L"],
-    onSale: false
+    onSale: false,
   },
   {
     id: 4,
-    name: "REA Items ",
+    name: "Fancy Gowns ",
     image: "/images/womens/saleitems.jpg",
     category: "womens",
     price: 39.99,
     size: ["XS", "S", "M", "L"],
-    onSale: false
+    onSale: false,
   },
-   
-  
-
 ];
 
 export default womensProducts;

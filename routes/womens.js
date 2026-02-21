@@ -4,11 +4,11 @@ import womensProducts from "../data/womensData.js";
 const womensRouter = express.Router();
 
 womensRouter.get("/", (req, res) => {
-  res.render("pages/womens", { 
-    pageTitle: "Womens Collection", 
+  res.render("pages/womens", {
+    pageTitle: "Womens Collection",
     page: "womens",
-    isSalePage: false, 
-    products: womensProducts 
+    isSalePage: false,
+    products: womensProducts,
   });
 });
 
@@ -17,25 +17,22 @@ womensRouter.get("/:category", (req, res) => {
   let filteredProducts;
 
   if (slug === "sale") {
-    
-    filteredProducts = womensProducts.filter(p => p.onSale === true);
+    filteredProducts = womensProducts.filter((p) => p.onSale === true);
     //console.log(`Sale products are ${filteredProducts}`)
-    res.render("pages/womens", { 
-      pageTitle: "Womens Sale", 
+    res.render("pages/womens", {
+      pageTitle: "Womens Sale",
       page: "womens",
-      isSalePage: true, 
-      products: filteredProducts 
+      isSalePage: true,
+      products: filteredProducts,
     });
   } else {
-    
-    res.render("pages/womens", { 
-      pageTitle: "Womens Collection", 
+    res.render("pages/womens", {
+      pageTitle: "Womens Collection",
       page: "womens",
       isSalePage: false,
-      products: womensProducts 
+      products: womensProducts,
     });
   }
 });
-
 
 export default womensRouter;

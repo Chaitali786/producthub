@@ -5,7 +5,7 @@ const mensData = [
     image: "/images/mens/denimjacket.jpg",
     category: "mens",
     price: 19.99,
-    size: ["S", "M", "L"]
+    size: ["S", "M", "L"],
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const mensData = [
     image: "/images/mens/holidayset.jpg",
     category: "mens",
     price: 19.99,
-    size: ["S", "M", "L"]
+    size: ["S", "M", "L"],
   },
   {
     id: 3,
@@ -21,8 +21,7 @@ const mensData = [
     image: "/images/mens/tshirt.jpg",
     category: "mens",
     price: 19.99,
-    size: ["S", "M", "L"]
-
+    size: ["S", "M", "L"],
   },
   {
     id: 4,
@@ -30,9 +29,8 @@ const mensData = [
     image: "/images/mens/woolenshirt.jpg",
     category: "mens",
     price: 19.99,
-    size: ["S", "M", "L"]
+    size: ["S", "M", "L"],
+  },
+];
 
-  }
-]
-
-export default mensData
+export default mensData;
